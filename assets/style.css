@@ -27,11 +27,15 @@ body {
   padding: 0 40px;
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 70px;
 }
-.logo {
+.enlac-logo {
   height: 90%;
   border-radius: 10px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
 }
 .navbar,
 .navbar-list {
