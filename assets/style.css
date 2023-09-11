@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700;1,800&display=swap");
+:root {
+  /* paleta */
+  --background: #eeceaf;
+  --primary: #bb9e80;
+  /* text */
+  --font-poppins: "Poppins";
+  --color-font-1: #ffffff;
+  --color-font-2: #000000;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: var(--font-poppins);
+}
+body {
+  background-color: var(--background);
+}
+.header {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+.logo {
+  height: 90%;
+  border-radius: 10px;
+}
+.navbar,
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  gap: 8rem;
+}
+.navbar-list {
+  gap: 5rem;
+}
+.navbar-list li {
+  border: solid var(--background);
+  border-radius: 10px;
+  padding: 5px;
+}
+.navbar-list a {
+  color: var(--color-font-1);
+}
+.carro-compra {
+  margin-right: 10px;
+}
