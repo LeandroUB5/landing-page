@@ -76,10 +76,10 @@ main {
   max-width: 1000px;
   padding: 20px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   background-color: rgb(170, 143, 143);
   border-radius: 10px;
-  gap: 10px;
+  gap: 7px;
 }
 .hero-texto {
   display: flex;
