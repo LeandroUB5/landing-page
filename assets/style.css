@@ -141,6 +141,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 15px;
 }
 .ventajas-tittle p {
@@ -148,6 +149,8 @@ main {
 }
 .card-conteiner {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
 }
@@ -166,7 +169,44 @@ main {
 .card img {
   width: 40px;
 }
-
+/* <<<<<<<<<<<<<<<<<<<<<<<Contacto>>>>>>>>>>>>>>>>>>>> */
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  gap: 30px;
+}
+.paseo_bogota {
+  width: 60%;
+}
+.contacto_conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.card_contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card_contactanos {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contacto_alineacion {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 40px;
+}
 footer {
   height: 100px;
+}
+.redes_sociales {
+  display: flex;
+  gap: 20px;
 }
