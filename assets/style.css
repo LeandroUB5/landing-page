@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 40px;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<Header>>>>>>>>>>>>>>>>>>>> */
 .header {
@@ -34,6 +35,7 @@ body {
   width: 100%;
   height: 70px;
   border-radius: 5px;
+  z-index: 2;
 }
 .enlac-logo {
   height: 90%;
@@ -158,7 +160,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 30%;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
   text-align: center;
   height: 200px;
@@ -195,6 +197,7 @@ main {
 .card_contactanos {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 25px;
 }
 .contacto_alineacion {
@@ -203,10 +206,15 @@ main {
   gap: 5px;
   line-height: 40px;
 }
-footer {
-  height: 100px;
-}
 .redes_sociales {
   display: flex;
   gap: 20px;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>>>>> */
+footer {
+  height: 100px;
+}
+footer h3 {
+  font-size: 60px;
+  font-family: cursive;
 }
