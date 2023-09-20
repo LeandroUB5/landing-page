@@ -1,0 +1,81 @@
+@media (max-width: 992px) {
+  /* ===================Header====================== */
+  .navbar {
+    gap: 40px;
+  }
+  .navbar ul {
+    width: 100%;
+    height: calc(50vh - 60px);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    gap: 25px;
+    background-color: var(--background);
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  .navbar i {
+    display: block;
+  }
+  /* ===================Hero====================== */
+  .hero {
+    width: 500px;
+  }
+  .hero img {
+    display: none;
+  }
+  .hero-texto {
+    text-align: center;
+    width: 100%;
+  }
+  /* ===================about====================== */
+  .about {
+    width: 500px;
+    text-align: justify;
+  }
+  /* ===================Cards====================== */
+  .card-section {
+    width: 500px;
+  }
+  .card-conteiner {
+    flex-direction: column;
+    width: 500px;
+  }
+  .card {
+    width: 70%;
+  }
+  /* ===================contacto====================== */
+  .contacto {
+    flex-direction: column;
+    width: 500px;
+  }
+  .contacto .paseo_bogota {
+    width: 100%;
+  }
+}
+#toggle-menu:checked ~ .navbar-list {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .hero {
+    width: 310px;
+  }
+  .about {
+    width: 300px;
+  }
+  .card-section {
+    width: 300px;
+    text-align: center;
+  }
+  .card-conteiner {
+    width: 300px;
+  }
+  .card_contacto {
+    flex-direction: column;
+  }
+  .contacto {
+    width: 300px;
+  }
+}
