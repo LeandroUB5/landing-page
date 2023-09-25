@@ -190,6 +190,7 @@ main {
 }
 .paseo_bogota {
   width: 60%;
+  border-radius: 6px;
 }
 .contacto_conteiner {
   display: flex;
